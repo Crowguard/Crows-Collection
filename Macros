@@ -1,0 +1,2 @@
+const deleteIds = canvas.scene.notes.map(i => i.id);
+await canvas.scene.deleteEmbeddedDocuments("Note", deleteIds);
