@@ -1,3 +1,2 @@
 // Toggles the game paused state.
-// (boolean)
-game.togglePause();
+game.togglePause(!game.paused, true);
